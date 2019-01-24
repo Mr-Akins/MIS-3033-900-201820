@@ -102,21 +102,36 @@ namespace ReviewConditionalLoopCollection
 
             //Console.WriteLine("Dontcha love knock knock jokes? ;) <3");
 
-            string[] firstNames = new string[5];
-            string[] lastNames = new string[5];
-            firstNames[0] = "Adam";
-            lastNames[0] = "Ackerman";
-            firstNames[1] = "Steve";
-            lastNames[1] = "Jobs";
+            //string[] firstNames = new string[5];
+            //string[] lastNames = new string[5];
+            //firstNames[0] = "Adam";
+            //lastNames[0] = "Ackerman";
+            //firstNames[1] = "Steve";
+            //lastNames[1] = "Jobs";
 
-            for (int i = 0; i < 5; i++)
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    if (lastNames[i] != null && firstNames[i] != null)
+            //    {
+            //        Console.WriteLine($"{lastNames[i]}, {firstNames[i]}");
+
+            //    }
+            //}
+
+            List<double> examScores = new List<double>();
+            examScores.Add(75.5);
+            examScores.Add(5.5);
+            examScores.Add(85.5);
+            examScores.Add(95.5);
+            examScores.Add(100);
+
+            double total = 0;
+            foreach (double item in examScores)
             {
-                if (lastNames[i] != null && firstNames[i] != null)
-                {
-                    Console.WriteLine($"{lastNames[i]}, {firstNames[i]}");
-
-                }
+                total = item + total;
             }
+
+            double average = total / examScores.Count;
 
             Console.ReadKey();
         }
