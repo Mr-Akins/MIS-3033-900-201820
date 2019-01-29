@@ -118,20 +118,38 @@ namespace ReviewConditionalLoopCollection
             //    }
             //}
 
-            List<double> examScores = new List<double>();
-            examScores.Add(75.5);
-            examScores.Add(5.5);
-            examScores.Add(85.5);
-            examScores.Add(95.5);
-            examScores.Add(100);
+            //List<double> examScores = new List<double>();
+            //examScores.Add(75.5);
+            //examScores.Add(5.5);
+            //examScores.Add(85.5);
+            //examScores.Add(95.5);
+            //examScores.Add(100);
 
-            double total = 0;
-            foreach (double item in examScores)
+            //double total = 0;
+            //foreach (double item in examScores)
+            //{
+            //    total = item + total;
+            //}
+
+            //double average = total / examScores.Count;
+
+            Dictionary<int, string> students = new Dictionary<int, string>();
+            students.Add(1, "Adam Ackerman");
+            students.Add(500, "billy bob");
+            if (students.ContainsKey(1) == true)
             {
-                total = item + total;
+                students[1] = "Jilly Jane";
             }
+            else
+            {
+                students.Add(1, "jilly jane");
+            }
+            //Console.WriteLine(students[1]);
 
-            double average = total / examScores.Count;
+            foreach (var item in students)
+            {
+                Console.WriteLine($"{item.Value} ({item.Key})");
+            }
 
             Console.ReadKey();
         }
