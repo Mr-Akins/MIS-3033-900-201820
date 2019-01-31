@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewMethods", "ReviewMeth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewClasses", "ReviewClasses\ReviewClasses.csproj", "{2CBE00C0-19E6-4302-8126-B45ED0738CF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example-WPF", "Example-WPF\Example-WPF.csproj", "{7CB7E9D0-9DA9-4ED9-A8C9-62933216BFF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2CBE00C0-19E6-4302-8126-B45ED0738CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CBE00C0-19E6-4302-8126-B45ED0738CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CBE00C0-19E6-4302-8126-B45ED0738CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB7E9D0-9DA9-4ED9-A8C9-62933216BFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB7E9D0-9DA9-4ED9-A8C9-62933216BFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB7E9D0-9DA9-4ED9-A8C9-62933216BFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB7E9D0-9DA9-4ED9-A8C9-62933216BFF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
